@@ -11,7 +11,7 @@ body {
   background-size: 50% 50%;     /* Or try: cover, auto, 100% 100%, etc. */
 
   /* Positioning */
-  background-position: top center;  /* You can also use: left, right, bottom */
+  background-position: bottom center;  /* You can also use: left, right, bottom */
 
   /* Behavior */
   background-repeat: no-repeat;
