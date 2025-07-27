@@ -5,9 +5,16 @@
 }
 
 body {
-  background-color: #111; /* Optional fallback */
-  overflow-x: hidden;
   font-family: sans-serif;
+  background-color: #111;
+  color: white;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 2rem;
+  background-color: #222; /* Optional: contrast against image */
+  text-align: center;
 }
 
 .image-wrapper {
@@ -16,7 +23,7 @@ body {
 }
 
 .scroll-image {
-  width: 100%;        /* Fit screen width */
-  height: auto;       /* Maintain original aspect ratio */
-  display: block;     /* Remove unwanted space */
+  width: 100%;
+  height: auto;
+  display: block;
 }
