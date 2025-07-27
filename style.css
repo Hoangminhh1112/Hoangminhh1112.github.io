@@ -1,0 +1,6 @@
+body {
+  background-image: url("Image/background.jpg");
+  background-size: cover;      /* or 'contain' or fixed width/height */
+  background-repeat: no-repeat;
+  background-position: center;
+}
