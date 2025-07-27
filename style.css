@@ -8,7 +8,7 @@ body {
   background-image: url("Image/background.png");
 
   /* Scaling */
-  background-size: contain;     /* Or try: cover, auto, 100% 100%, etc. */
+  background-size: 50% 50%;     /* Or try: cover, auto, 100% 100%, etc. */
 
   /* Positioning */
   background-position: top center;  /* You can also use: left, right, bottom */
