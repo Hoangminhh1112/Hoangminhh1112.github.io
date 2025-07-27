@@ -1,22 +1,22 @@
-body {
-  background-image: url("Image/background.png");
-  background-size: cover;      /* or 'contain' or fixed width/height */
-  background-repeat: no-repeat;
-  background-position: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
-  background-image: url("Image/background.png");
+  background-color: #111; /* Optional fallback */
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
 
-  /* Scaling */
-  background-size: 50% 50%;     /* Or try: cover, auto, 100% 100%, etc. */
+.image-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
 
-  /* Positioning */
-  background-position: bottom center;  /* You can also use: left, right, bottom */
-
-  /* Behavior */
-  background-repeat: no-repeat;
-  background-attachment: fixed;  /* Makes the background stay fixed while scrolling */
-
-  /* Optional fallback */
-  background-color: #000; /* Fallback color if image doesn't load */
+.scroll-image {
+  width: 100%;        /* Fit screen width */
+  height: auto;       /* Maintain original aspect ratio */
+  display: block;     /* Remove unwanted space */
 }
