@@ -6,5 +6,6 @@ This repository showcases a curated selection of my design work, including brand
 ---
 
 ## 📁 Repository Structure
+![Demo Animation](Gif/cuu-vi-idle.gif.gif)
 
 
