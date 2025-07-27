@@ -4,3 +4,19 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+body {
+  background-image: url("Image/background.png");
+
+  /* Scaling */
+  background-size: contain;     /* Or try: cover, auto, 100% 100%, etc. */
+
+  /* Positioning */
+  background-position: top center;  /* You can also use: left, right, bottom */
+
+  /* Behavior */
+  background-repeat: no-repeat;
+  background-attachment: fixed;  /* Makes the background stay fixed while scrolling */
+
+  /* Optional fallback */
+  background-color: #000; /* Fallback color if image doesn't load */
+}
